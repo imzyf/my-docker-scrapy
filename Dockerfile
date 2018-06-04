@@ -47,10 +47,6 @@ RUN apt-get update && \
     && echo 'source /etc/bash_completion.d/scrapy_bash_completion' >> /root/.bashrc
 
 
-# Source the bash
-RUN . ~/.bashrc
-
-
 #
 #--------------------------------------------------------------------------
 # Final Touch
